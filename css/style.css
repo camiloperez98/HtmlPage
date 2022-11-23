@@ -1,0 +1,339 @@
+body {
+    background-color:#CACFD2;
+    margin: 2;
+    padding: 2;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    nav {
+        display: flex;
+        background-color:#5D6D7E ;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        justify-content:center;
+       
+        
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        
+      
+    }
+
+    nav li{
+        list-style: none;
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    nav a{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    nav a:hover{
+    color: #73C6B6;
+    }
+
+   .header-informacion span{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #272323;
+    display: flex;
+    justify-content: center;
+   }
+   .header-informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   }
+
+   main {
+    max-height:50%;
+   }
+
+   .vit-1{
+    border: #272323;
+   }
+
+   .asoc h1{
+    font-family:Playfair Display;
+    text-align: center;
+    color: #272323;
+   }
+
+   .asoc-images{
+    display:flex;
+    justify-content: space-around;
+    }
+
+    .asoc {
+        border: 1px #272323 solid;
+    }
+
+    .asoc-images img{
+        width: 25%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mensaje{
+        justify-content: space-around;
+    }
+
+    footer {
+        max-height: 25%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #616161;
+        margin-top: 20px;
+    }
+
+    h1{
+        font-family: 'Signika Negative', sans-serif;
+    font-size: 4rem;
+    color: #272323;
+    display: flex;
+    justify-content: center;
+    }
+
+    footer h4{
+    font-family: 'Playfair Display', serif;
+    }
+
+    .uno{
+        margin-left: 20px;
+    }
+
+    .video-lambo{
+        display: flex;
+       justify-content: space-around;
+       margin-top: 2px;
+       padding: 2;
+    }
+
+    
+
+    .vits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .vit {
+    border: 1px #272323 solid;
+     border-radius: 5px;
+     width: 800px; ;
+     height: auto;
+     padding: 10px;
+    margin: 10px;
+    
+   
+    }
+
+    .formulario form  {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 50px;
+        border-radius: 5px ;
+       
+    }
+
+    .formulario input,textarea, select{
+        margin: 10px 0px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #616161 ;
+        background-color:steelblue;
+    }
+
+    .contact button{
+        background-color: #b0f1e6;
+        padding: 10px;
+        font-weight: bold;
+        border: 1px solid #5D6D7E;
+        margin-bottom: 15px;
+        width: 50%;
+        margin: 10px auto;
+        color: #616161;
+
+    }
+
+    .mens-contact {
+        display: flex;
+        justify-content: space-around;
+        margin: 70px;
+        
+
+    }
+
+    .logo-img{
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    .mens-somos{
+    display:flex;
+    justify-content:space-around;
+    padding: 70px;
+        
+    }
+
+    .boton{
+        color: #5D6D7E;
+    }
+
+    .info-vitrina{
+        display: flex;
+        justify-content: space-around;
+       padding: 70px;
+    }
+
+    .mensaje{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .mens-somos{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .info-vitrina{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .mens-contact{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .vit{
+        background-color:black ;
+        font-size: 15px;
+        
+    }
+
+    .vit p{
+        color: #ffff;
+    }
+
+    @media screen and (max-width:375px) {
+        .header{
+            width: 20px;
+            
+        }
+
+        .logo-img{
+            width: 20px; 
+            height: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        nav li{
+            display: flex;
+            justify-content: space-around;
+            width: 25px;
+        
+        }
+
+        nav a{
+            font-size: 14px;
+        }
+
+        .header-informacion span {
+            font-size: 2rem;    
+        }
+
+        .header-informacion p{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .mensaje p{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .asoc h1 {
+            font-size: 2rem;
+        }
+
+      .asoc-images img {
+       width: 50px;
+       height: 50px;
+      }
+
+      .uno {
+        font-size: 12px;
+       
+
+      }
+      .dos img{
+        width: 35px;
+      }
+
+      .dos h4{
+        font-size: 14px;
+      }
+
+      .tres img{
+        width: 35px;
+      }
+
+      .tres h4{
+        font-size: 14px;
+      }
+
+      footer{
+        display: flex;
+        justify-content: space-around;
+      }
+
+      @media screen and (max-width:811px) {
+
+        .asoc-images {
+            
+            display: flex;
+            justify-content: space-around;
+           }
+
+        
+      }
+
+     
+       
+
+        
+       
+    }
+
+   
+
+    
+    
